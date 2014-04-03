@@ -1,3 +1,6 @@
+# About This Repo #
+This is a skeleton of an Ansible home directory. You can control all of your application environments from this directory. If you work with multiple customers, you probably want to create a separate copy of this repo for each customer.
+
 # Ansible Tips #
 In your roles directory, type ansible-galaxy init <em>role_name</em> in order to generate an empty skeleton for a new role you are working on.
 
@@ -6,7 +9,12 @@ Example:
 ansible-galaxy init nginx
 </pre>
 
+Check out [Ansible Examples](https://github.com/ansible/ansible-examples) for example playbooks.
+
 # Best Practices Directory Layout #
+
+
+
 <pre>
 production                # inventory file for production servers
 stage                     # inventory file for stage environment
