@@ -1,6 +1,7 @@
 # This is your main playbook you will run with:
 # ansible-playbook site.yml
-# Everything kicks off from this playbook.
+# You can kick off everything from this playbook.
+# Or, you can create separate playbooks in this directory for specific orchestration events.
 
 ---
 - name: apply common configuration to all nodes
