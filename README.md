@@ -1,5 +1,5 @@
 # Ansible Tips #
-In your roles directory, type ansible-galaxy init <role_name> in order to generate an empty skeleton for a new role you are working on.
+In your roles directory, type ansible-galaxy init <em>role_name</em> in order to generate an empty skeleton for a new role you are working on.
 
 Example:
 <pre>
