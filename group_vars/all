@@ -1,1 +1,3 @@
 # A place to put variables that apply to all groups
+# Create a file in this directory called "webservers" to set variables
+# for the "webservers" group.

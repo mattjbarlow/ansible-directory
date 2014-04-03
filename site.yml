@@ -1,3 +1,7 @@
+# This is your main playbook you will run with:
+# ansible-playbook site.yml
+# Everything kicks off from this playbook.
+
 ---
 - name: apply common configuration to all nodes
   hosts: all
