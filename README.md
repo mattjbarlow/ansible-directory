@@ -6,6 +6,7 @@ Example:
 ansible-galaxy init nginx
 </pre>
 
+# Best Practices Directory Layout #
 <pre>
 production                # inventory file for production servers
 stage                     # inventory file for stage environment
