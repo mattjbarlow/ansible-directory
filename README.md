@@ -52,4 +52,3 @@ roles/
     monitoring/           # ""
     fooapp/               # ""
 </pre>
-Testing webhook.
