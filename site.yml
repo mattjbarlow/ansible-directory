@@ -13,6 +13,8 @@
         msg: "Testing the debug module against host"
     - debug:
         msg: "This is a new commit"
+    - debug:
+        msg: "This is a demo commit"
   roles:
     - common
 
