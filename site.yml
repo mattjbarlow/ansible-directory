@@ -8,7 +8,9 @@
   hosts: all
   connection: local
   user: root
-
+  tasks:
+    - debug:
+        msg: "Testing the debug module against host"
   roles:
     - common
 
