@@ -11,6 +11,8 @@
   tasks:
     - debug:
         msg: "Testing the debug module against host"
+    - debug:
+        msg: "This is a new commit"
   roles:
     - common
 
