@@ -6,6 +6,7 @@
 ---
 - name: apply common configuration to all nodes
   hosts: all
+  connection: local
   user: root
 
   roles:
