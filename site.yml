@@ -15,6 +15,8 @@
         msg: "This is a new commit"
     - debug:
         msg: "This is a demo commit"
+    - debug:
+        msg: "This is another ansible play"
   roles:
     - common
 
