@@ -6,8 +6,17 @@
 ---
 - name: apply common configuration to all nodes
   hosts: all
+  connection: local
   user: root
-
+  tasks:
+    - debug:
+        msg: "Testing the debug module against host"
+    - debug:
+        msg: "This is a new commit"
+    - debug:
+        msg: "this is a commit for the demo"
+    - debug:
+        msg: "adding some more stuff"
   roles:
     - common
 
